@@ -9,7 +9,7 @@ import * as Highcharts from 'highcharts';
 })
 
 export class AppComponent implements AfterViewInit {
-  title = 'Highcharts + Angular 5 Demo';
+  title = 'Highcharts + Angular 7 Demo';
   @ViewChild('chartTarget') chartTarget: ElementRef;
   chart: Highcharts.Chart;
   // options: { chart: { type: string; }; title: { text: string; }; series: { data: number[]; }[]; };
